@@ -28,6 +28,7 @@
             scroll-behavior: smooth;
         }
     </style>
+    @livewireStyles
 </head>
 
 <body class="bg-gray-50 text-gray-800">
@@ -322,6 +323,7 @@
         // Inisialisasi awal
         renderCharts(30);
     </script>
+    @livewireScripts
 </body>
 
 </html>
