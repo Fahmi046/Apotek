@@ -2,5 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
-// routes/web.php
-Route::view('/', 'dashboard')->name('dashboard');
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
+Route::get('/products', function () {
+    return view('products.index');
+});
