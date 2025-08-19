@@ -29,4 +29,12 @@ class Product extends Model
         'resep',
         'active',
     ];
+
+    protected $casts = [
+        'generik' => 'boolean',
+        'prekursor' => 'boolean',
+        'psikotropika' => 'boolean',
+        'resep' => 'boolean',
+        'active' => 'boolean',
+    ];
 }
